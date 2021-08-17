@@ -6,14 +6,22 @@
   "logo": "/assets/img/geu3.png",
   "courses": [
     {
-      "name": "Algorithms & Data Structures",
-      "link": "https://uwflow.com/course/ece250"
+      "name": "Web Development Bootcamp",
+      "link": "https://www.udemy.com/course/the-web-developer-bootcamp/"
+    },
+    {
+      "name": "Modern React with Redux".
+      "link": "https://www.udemy.com/course/react-redux/"
     }
   ],
   "onlineCourses": [
     {
-      "name": "Udemy: Web Development Bootcamp",
-      "link": "https://www.udemy.com/certificate/UC-815d380d-c7ab-4eba-8d02-05b84bf81dd4/"
+      "name": "Mastering Data Structures and Algorithms",
+      "link": "https://www.udemy.com/certificate/UC-83541e06-9ea8-47e5-9c88-a47e3e07c19e/"
+    },
+    {
+      "name": "100 Days of Code",
+      "link": "https://www.udemy.com/course/100-days-of-code/"
     }
   ]
 }
