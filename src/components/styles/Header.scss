@@ -1,0 +1,34 @@
+@import "themes";
+@import "global";
+
+.header {
+  font-weight: 800;
+
+  label {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .sun {
+    color: yellow;
+    margin: 0px 3px;
+  }
+
+  .moon {
+    color: #ffffff;
+    margin: 0px 5px;
+  }
+
+  .resume-button {
+    transition: background $theme-toggle-time;
+    @include themed() {
+      background: t("secondary-color");
+    }
+    font-weight: 700;
+    border-radius: 1.25rem;
+    border-color: transparent;
+  }
+  .resume-button:hover {
+    opacity: .75;
+  }
+}

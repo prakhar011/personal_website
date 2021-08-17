@@ -1,0 +1,93 @@
+@import "bootstrap";
+@import "themes";
+@import "global";
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.base {
+  transition: background-color $theme-toggle-time, color $theme-toggle-time;
+  @include themed() {
+    background-image: t("background-image");
+    background-color: t("background-color");
+    color: t("text-color");
+  }
+}
+
+h1 {
+  display: inline-block;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.badge-pill {
+  font-size: 1.2rem;
+  margin: 1%;
+  transition: background-color $theme-toggle-time;
+  @include themed() {
+    background-color: t("secondary-color");
+  }
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  color: inherit;
+}
+
+// Reduce font size for smaller screens (mobile)
+@media screen and (max-width: $max-width-font-reduce) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.9rem;
+  }
+
+  p {
+    font-size: 0.7rem;
+  }
+
+  li {
+    font-size: 0.8rem;
+  }
+
+  hr {
+    margin-bottom: 3%;
+  }
+
+  .badge-pill {
+    font-size: 0.8rem;
+  }
+}
+
+// Center align everything on medium screens and down
+@include media-breakpoint-down(md) {
+  body {
+    text-align: center;
+  }
+}
+
+// Bootstrap class transitions on theme change
+.navbar {
+  transition: background-color $theme-toggle-time, color $theme-toggle-time;
+}
+.nav-link {
+  transition: color $theme-toggle-time;
+}
+.card {
+  transition: background-color $theme-toggle-time, color $theme-toggle-time;
+}
+
+hr {
+  background-color: white;
+}

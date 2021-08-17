@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "title": "This Website!",
+      "skills": ["TypeScript", "Sass", "HTML", "React", "Bootstrap"],
+      "bullets": [
+        "Fully designed and built by me",
+        "<b>Bootstrap</b> used for responsive layout and as a <b>React</b> component library",
+        "<b>Sass</b> mixins used to efficiently style light and dark themes"
+      ],
+      "githubLinks": [
+        "https://github.com/prakhar011/personal_website.git"
+      ]
+    }
+    
+    
+  ]
+}
+

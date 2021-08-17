@@ -1,0 +1,19 @@
+{
+  "degree": "B.Tech Computer Science",
+  "school": "Graphic Era Deemed to be University",
+  "link": "https://www.geu.ac.in/",
+  "date": "Sep 2020 - Sept 2024",
+  "logo": "/assets/img/geu3.png",
+  "courses": [
+    {
+      "name": "Algorithms & Data Structures",
+      "link": "https://uwflow.com/course/ece250"
+    }
+  ],
+  "onlineCourses": [
+    {
+      "name": "Udemy: Web Development Bootcamp",
+      "link": "https://www.udemy.com/certificate/UC-815d380d-c7ab-4eba-8d02-05b84bf81dd4/"
+    }
+  ]
+}

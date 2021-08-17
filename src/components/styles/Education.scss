@@ -1,0 +1,64 @@
+@import "bootstrap";
+@import "themes";
+@import "global";
+
+#education {
+  margin-top: $spacing-between-sections;
+
+  h1 {
+    margin-left: 5%;
+  
+    hr {
+      margin-top: 3%;
+    }
+  }
+
+  .education-row {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .courses {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .school-name {
+    transition: color $theme-toggle-time;
+    @include themed() {
+      color: t("secondary-color");
+    }
+  }
+
+  .uw-logo-col {
+    display: flex;
+  }
+
+  a {
+    margin: auto;
+  }
+
+  .uw-logo {
+    margin: auto;
+    max-height: 130px;
+    max-width: 100%;
+  }
+
+  .icon-text {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: $max-width-font-reduce) {
+  #education {
+    .courses {
+      display: none;
+    }
+
+    .uw-logo {
+      max-height: 60px;
+    }
+  }
+}

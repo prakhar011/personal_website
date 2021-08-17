@@ -1,0 +1,52 @@
+@import "bootstrap";
+@import "themes";
+@import "global";
+
+#about {
+  
+  margin-top: 5%;
+}
+
+.about-itachi-img {
+  display: block;
+  margin: auto;
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 50%;
+
+  transition: border $theme-toggle-time;
+  @include themed() {
+    border: 0.5rem solid t("secondary-color");
+  }
+}
+
+.about-intro {
+  br {
+    display: none;
+  }
+}
+
+.about-secondary-color {
+  transition: color $theme-toggle-time;
+  @include themed() {
+    color: t("secondary-color");
+  }
+}
+
+// Bootstrap breakpoint to optimize when layout changes
+@include media-breakpoint-down(md) {
+  .about-intro {
+    margin-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+// Breakpoint to ensure TypeWriter text never overflows to newline
+@media screen and (max-width: 1372px) {
+  .about-intro {
+    br {
+      display: inline-block;
+    }
+  }
+}

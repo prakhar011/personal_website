@@ -1,0 +1,30 @@
+{
+  "languages": [
+    "C++",
+    "C",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "HTML",
+    "CSS",
+    "Sass",
+    "SQL"
+    
+  ],
+  "libraries": [
+    
+    "Node.js",
+    "React.js",
+    "Bootstrap",
+    "Express.js"
+  
+  ],
+  "tools": [
+    "Git",
+    "Linux",
+    "MongoDB",
+    "Bash"
+    
+  ]
+}
