@@ -24,6 +24,7 @@ h1 {
 .badge-pill {
   font-size: 1.2rem;
   margin: 1%;
+  border-radius: 1.5rem;
   transition: background-color $theme-toggle-time;
   @include themed() {
     background-color: t("secondary-color");

@@ -17,23 +17,4 @@
   margin: 0px 5px;
 }
 
-.header .resume-button {
-  -webkit-transition: background 250ms;
-  transition: background 250ms;
-  font-weight: 700;
-  border-radius: 1.25rem;
-  border-color: transparent;
-}
-
-.theme-light .header .resume-button {
-  background: #0e49b5;
-}
-
-.theme-dark .header .resume-button {
-  background: #217bcf;
-}
-
-.header .resume-button:hover {
-  opacity: .75;
-}
 /*# sourceMappingURL=Header.css.map */
