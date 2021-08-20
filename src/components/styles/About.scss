@@ -3,17 +3,12 @@
 @import "global";
 
 #about {
-  
   margin-top: 5%;
 }
 
 .about-itachi-img {
   display: block;
   margin: auto;
-  max-width: 200px;
-  max-height: 200px;
-  border-radius: 50%;
-
   transition: border $theme-toggle-time;
   @include themed() {
     border: 0.5rem solid t("secondary-color");
@@ -33,17 +28,24 @@
   }
 }
 
-// Bootstrap breakpoint to optimize when layout changes
-@include media-breakpoint-down(md) {
-  .about-intro {
-    margin-top: 5%;
+// Bootstrap breakpoint to optimize when layout changes.
+@media screen and (max-width:991px){
+  .about-itachi-img{
+    max-width: 30%;
+    max-height: auto;
+  }
+  
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+	.about-intro{
+    
+    margin: auto;
     padding-left: 10%;
-    padding-right: 10%;
   }
 }
-
 // Breakpoint to ensure TypeWriter text never overflows to newline
-@media screen and (max-width: 1372px) {
+@media screen and (max-width: 1362px) {
   .about-intro {
     br {
       display: inline-block;

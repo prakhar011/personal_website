@@ -12,16 +12,16 @@ const About = () => {
   return (
     <section id="about">
       <Container fluid>
-        <Row className="align-items-center ">
+        <Row className="align-items-center">
           <Col lg={5}>
             <Image
               className="about-itachi-img"
               src={process.env.PUBLIC_URL + about.img}
-              
+              roundedCircle
               fluid
             />
           </Col>
-          <Col className="about-intro" lg={7}>
+          <Col className="about-intro" lg={6}>
             <h1>
               Prakhar<span className="about-secondary-color"> Awasthi</span>
               <hr />
