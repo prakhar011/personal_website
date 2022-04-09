@@ -11,8 +11,31 @@
       "githubLinks": [
         "https://github.com/prakhar011/personal_website.git"
       ]
+    },
+    {
+      "title": "I-Card-Generator",
+      "skills": ["Node.js", "React.js","Material-ui"],
+      "bullets": [
+       "A web application that provides Icards for Club members",
+       "<b>Node.js</b> used for backend server",
+       "Fully responsive Frontend built usig <b>React.js</b> and <b>Material-ui</b>"
+      ],
+      "githubLinks": [
+        "https://github.com/prakhar011/i-card-frontend-1"
+      ]
+    },
+    {
+      "title": "ether-pay",
+      "skills": ["Hardhat", "React.js","Solidity","TailwindCSS","Metamask"],
+      "bullets": [
+        "A web application that provides a platform for users to buy and sell ethereum",
+        "Fully responsive interface built usig <b>React.js</b> and <b>TailwindCSS</b>",
+        "<b>Hardhat</b> used as Ethereum development environment"
+      ],
+      "githubLinks": [
+        "https://github.com/prakhar011/personal_website.git"
+      ]
     }
-    
     
   ]
 }
