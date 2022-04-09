@@ -38,7 +38,7 @@ const Skills = (props: SkillsProps) => {
               </Card.Body>
             </Card>
           </Col>
-          <Col sm="12" md="6" lg="4" className="middle-card">
+          {/* <Col sm="12" md="6" lg="4" className="middle-card">
             <Card
               className="skill-card"
               bg={props.darkTheme ? "dark" : "light"}
@@ -55,7 +55,7 @@ const Skills = (props: SkillsProps) => {
                 ))}
               </Card.Body>
             </Card>
-          </Col>
+          </Col> */}
           <Col sm="12" md="6" lg="4">
             <Card
               className="skill-card"
@@ -63,7 +63,7 @@ const Skills = (props: SkillsProps) => {
               text={props.darkTheme ? "light" : "dark"}
             >
               <Card.Header>
-                <h2>Tools & Technologies</h2>
+                <h2>Technologies</h2>
               </Card.Header>
               <Card.Body>
                 {skills.tools.map((tool) => (
